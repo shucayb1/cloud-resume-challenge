@@ -1,169 +1,225 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
- 
-  <title>CV - Shucayb Abdirahman</title>
-  <style>
-    body {
-    background-color: #f2f2f2; /* Replace with your preferred subtle color */
-    font-family: Arial, sans-serif;
-  }
-  .counter-number {
-            font-size: 24px;
-            font-weight: bold;
-            color: #1e488f;
-        }
-    h1 {
-    color: #333;
-    font-size: 32px;
-    margin-bottom: 10px;
-    text-align: center; /* Align the text to the center */
-  }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shucayb Abdirahman</title>
 
-    h2 {
-      color: #666;
-      font-size: 24px;
-      margin-top: 20px;
-      margin-bottom: 10px;
-    }
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    p {
-      color: #666;
-      font-size: 16px;
-      margin-bottom: 10px;
-    }
-
-    ul {
-      color: #666;
-      font-size: 16px;
-      margin-bottom: 10px;
-      padding-left: 20px;
-    }
-
-    .section {
-      background-color: #ffffff;
-      border-radius: 5px;
-      padding: 20px;
-      margin-bottom: 20px;
-    }
-
-    .contact-info {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center; /* Align the text to the center */
-  }
-
-    .contact-info p {
-      margin-bottom: 5px;
-    }
-
-    .separator {
-      border-top: 1px solid #ccc;
-      margin-top: 10px;
-      margin-bottom: 10px;
-    }
-  </style>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/png" href="/assets/favicon.png">
 </head>
+
 <body>
-  <h1> SHUCAYB ABDIRAHMAN</h1>
-  <div class="contact-info">
-    <p>Wembley HA0, London, UK | Mobile: (+44) 07598488312 | Email: shuib290@gmail.com </p>
 
-    <p class="counter-number">Loading...</p>
-</div>
+    <!-- header area -->
+    <header id="header">
+        <div class="row m-0">
+            <div class="col-3 bgcolor-black">
+                <nav class="primary-nav navbar-expand-md">
+                    <div class="site-title text-center text-light py-5">
+                    
+                    </div>
+                    <div class="d-flex flex-column">
+                        <a href="#home" class="nav-item nav-link text-white-50 font-os font-size-16 active">Home</a>
+                        <a href="#about_me"
+                            class="nav-item nav-link text-white-50 font-os font-size-16 active">About</a>
+                            <a href="#awards"
+                            class="nav-item nav-link text-white-50 font-os font-size-16 active">Achievements</a>
+                            <div class="counter-number nav-item nav-link text-white-50 font-os font-size-16 active">Couldn't
+                                read the counter</div>    
+                        
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <button class="toggle-button"><span class="fas fa-bars fa-2x"></span></button>
+    </header>
+    <!-- #header area -->
 
-<script src="index.js"></script>
-<div class="counter-number"></div>
+    <main id="site-main">
+        <div class="row m-0">
+            <div class="col-md-9 offset-md-3 px-0">
 
-  <div class="section">
-    <h2>Profile Summary</h2>
-    <p>Result-driven engineer with a diverse background in cloud and on-premises infrastructure technologies. Committed to continuous learning and staying at the forefront of emerging trends and advancements. Skilled in coordinating architecture plans and procedures to exceed corporate objectives and industry standards. Proficient in designing and implementing scalable, reliable, secure, and high-performance cloud solutions using AWS and Azure. Possesses a proactive attitude and strong problem-solving abilities.</p>
-  </div>
+                <!-- site-banner area -->
+                <section class="site-banner bg-light" id="home">
+                    <div class="banner-area">
+                        <div class="author text-center">
+                            <div class="author-img"></div>
+                            <h1 class="text-black font-staat font-size-40 text-uppercase py-3">Shucayb Abdirahman</h1>
+                            <h5 class="text-black font-ram font-size-27">I'm a <span id="typed"></span></h5>
+                        </div>
+                    </div>
+                </section>
+                <!-- #site-banner area -->
 
-  <div class="section">
-    <h2>Certifications</h2>
-    <ul>
-      <li>AWS Certified Solutions Architect (Associate)</li>
-      <li>Azure Security Engineer Associate (AZ-500)</li>
-      <li>Microsoft Cybersecurity Architect (SC-100)</li>
-      <li>Cisco CCNP Enterprise</li>
-      <li>Check Point Certified Security Administrator (CCSA)</li>
-      <li>Microsoft Security, Compliance, Identity (SC-900)</li>
-      <li>Cisco CCNA</li>
-    </ul>
-  </div>
+                <!-- about me area -->
+                <section class="about px-4 my-5" id="about_me">
+                    <div class="me py-5">
+                        <h5 class="text-uppercase font-os font-size-16 text-muted">information</h5>
+                        <h1 class="text-uppercase font-staat font-size-34">About Me</h1>
+                    </div>
+                    <div class="row m-0">
+                        <div class="col-sm-5 pl-0">
+                            <img src="./assets/banner.png" alt="profile image" class="img-fluid">
+                        </div>
+                        <div class="col-sm-6">
+                            <h6 class="text-uppercase font-os font-size-16 text-muted">About Me</h6>
+                            <h5 class="font-ram font-size-20 py-2">I'm Shucayb Abdirahman a <span id="typed_2"></span></h5>
+                            <p class="font-ram text-black-50 py-2">
+                                I'm an engineer with a diverse background in cloud and on-premises infrastructure technologies. I have a passion for continuous learning and keeping up with the latest trends. My expertise lies in coordinating architecture plans to surpass objectives and industry standards. I specialize in crafting scalable, secure, and high-performance cloud solutions using AWS and Azure. I take a proactive approach and thrive on solving problems. Collaboration is key to me, as I enjoy working with others.
 
-  <div class="section">
-    <h2>Key Skills</h2>
-    <ul>
-      <li>Cloud Proficiency: Extensive experience with Azure and AWS.</li>
-      <li>Infrastructure as Code: Experience with Terraform and Ansible for automating deployment and management of cloud resources.</li>
-      <li>Monitoring & Logging: Proficient in CloudWatch, Azure Monitor, and Prometheus for comprehensive cloud monitoring, logging, & alerting.</li>
-      <li>DevOps: CI/CD, Jenkins, Git, Docker, and Kubernetes.</li>
-      <li>Programming/Scripting: Python, YAML, JSON, and PowerShell scripting.</li>
-      <li>Virtualization: Proficient in VMware, Hyper-V, and KVM.</li>
-      <li>Cybersecurity: Strong understanding of cybersecurity concepts, and frameworks, with experience implementing security measures.</li>
-      <li>Networking: Advanced knowledge of networking concepts, protocols, and technologies, with experience configuring and managing enterprise network devices.</li>
-      <li>Operating Systems: Windows, Ubuntu, Red Hat Linux, Centos, Amazon EC2.</li>
-      <li>Maintenance Organization and Development.</li>
-      <li>Ability to explain technical issues to non-technical colleagues.</li>
-      <li>Excellent customer service and good documentation skills.</li>
-    </ul>
-  </div>
+                            </p>
+                            <div class="d-flex flex-row flex-wrap justify-content-between py-4">
+                                <div class="d-flex flex-column">
+                                    <p class="font-ram"><b>Website: </b><span
+                                            class="text-black-50">shucayb.com</span></p>
+                                </div>
+                            </div>
+                            <button type="submit" onclick="window.open('./assets/ShucaybAbdirahman.pdf')"
+                                class="btn btn-dark text-uppercase mr-3">Download CV</button>
+                        </div>
+                    </div>
+                </section>
+                <!-- #about me area -->
 
-  
+                <!-- ability -->
+                <section class="skill px-4 py-5 bg-light" id="services">
+                    <div class="ability py-3">
+                        <h5 class="text-uppercase font-os font-size-16 text-muted">Ability</h5>
+                        <h1 class="text-uppercase font-staat font-size-34">My skills</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 pl-4">
+                            <p class="font-ram font-size-16 text-black-50 pb-3">
+                                I have hands-on experience with Azure and AWS, making me proficient in cloud technologies. I specialize in automating cloud resource deployment and management using Terraform and Ansible. Additionally, I am skilled in monitoring and logging tools such as CloudWatch, Azure Monitor, and Prometheus. In the DevOps domain, I excel in CI/CD processes, Jenkins, Git, Docker, and Kubernetes. My programming and scripting expertise includes Python, YAML, JSON, and PowerShell. I possess a strong understanding of networking concepts and technologies, enabling me to configure and manage enterprise network devices. Moreover, I have a solid grasp of cybersecurity principles and can implement effective security measures.
+                            </br>
+                                
+                            </p>
+                            <ul class="list-inline dev-icons">
+                                <li class="list-inline-item">
+                                    <i class="fab fa-python"
+                                    ></i>
+                                </li>
+                                <li class="list-inline-item">
+                                    <i class="fas fa-shield-alt"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                    <i class="fab fa-microsoft"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                    <i class="fab fa-aws"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                    <i class="fas fa-network-wired"></i>
+                                </li>
+                            </ul>
+                        </div>
+                </section>
+                <!-- #ability -->
 
-<div class="section">
-  <h2>Work Experience</h2>
-  <ul>
-    <li>
-      <h3>The Office Group, London, UK</h3>
-      <p>08/2022 - Current,    IT Engineer - Full Time</p>
-      <ul>
-        <li>Provide professional IT services for over 18,000 clients, ranging from small businesses to medium-sized enterprises and Fortune 500 companies.</li>
-        <li>Collaborate with third-party providers, including ISPs and Network Vendors, to ensure prompt resolution of infrastructure failures, maintaining remarkable uptime and minimizing any adverse impact on client operations.</li>
-        <li>Delivered remote support to IT engineers of clients facing firewall issues, preventing substantial financial losses of thousands of pounds.</li>
-        <li>Provide training to colleagues from non-IT backgrounds, empowering them to troubleshoot complex IT issues independently, resulting in significant cost and time savings for the organization.</li>
-      </ul>
-    </li>
-    <li>
-      <h3>The Education Space, Stratford, London, UK</h3>
-      <p>04/2022 - 07/2022,   IT Engineer - Contract</p>
-      <ul>
-        <li>Managed IT infrastructure for over 10 schools, demonstrating a strong background in overseeing and enhancing diverse IT environments within educational settings.</li>
-        <li>Maintained exceptional uptime by leveraging cloud-based monitoring tools like Meraki to proactively identify and swiftly respond to any potential issues or failures, ensuring uninterrupted operations and seamless user experiences.</li>
-        <li>Collaborated with third-party vendors to address and resolve any product or service-related issues, effectively managing vendor relationships to ensure efficient support and minimal disruption to IT systems.</li>
-        <li>Actively proposed and recommended new cloud-based products and services to clients, leveraging expertise in cloud technologies to optimize and improve their current infrastructure. These proposals aimed to enhance operational efficiency, scalability, and cost-effectiveness.</li>
-      </ul>
-    </li>
-    <li>
-      <h3>TSN Academy Ltd, Hayes, London, UK</h3>
-      <p>12/2020 - 04/2022,   IT Teacher Assistant</p>
-      <ul>
-        <li>Provided comprehensive training and support to hundreds of students, preparing them for vendor certifications in Cisco, Check Point, VMware, Microsoft, and CompTIA. Achieved an exceptional 98% certification success rate.</li>
-        <li>Delivered basic cloud training, covering key concepts and hands-on exercises using popular cloud platforms such as AWS and Azure.</li>
-        <li>Guided students in practical labs, demonstrating the setup of devices like routers, switches, firewalls, and DHCP servers, and implementing Microsoft AD.</li>
-        <li>Asset management of all training equipment across all centers in the UK and East Africa.</li>
-      </ul>
-    </li>
-  </ul>
-</div>
 
-<div class="section">
-  <h2>Projects</h2>
-  <ul>
-    <li>
-      <h3>Azure Security:</h3>
-      <p>The project involved the implementation of Azure policies aimed at enhancing the security of the Azure infrastructure. These policies were designed to enforce compliance and regulatory requirements, such as HIPAA and GDPR, and to align with industry best practices.</p>
-    </li>
-    <li>
-      <h3>Infrastructure As Code:</h3>
-      <p>Utilized Terraform to deploy the infrastructure resources required for a highly available web application, including VPC, subnets, load balancers, and EC2 instances. Employed Ansible to configure the EC2 instances with essential software packages, firewall rules, and application software. Implemented SSL/TLS encryption and managed user access using IAM to ensure the security of the web application.</p>
-    </li>
-    <li>
-      <h3>Scaling and Cost Optimization:</h3>
-      <p>Implemented automated scaling with AWS Auto Scaling, ensuring efficient resource allocation based on demand for enhanced scalability and cost efficiency. Employed cost optimization strategies, including rightsizing instances, leveraging AWS Spot Instances, and implementing resource monitoring and tagging, achieving a 30% cost reduction. Collaborated cross-functionally to analyze workload patterns, identify performance bottlenecks, and optimize infrastructure architecture for optimal resource utilization and cost-effectiveness.</p>
-    </li>
-  </ul>
-</div>
+                <!-- awards -->
+                <section class="awards px-4 py-5" id="awards">
+                    <div class="do py-5">
+                        <h5 class="text-uppercase font-os font-size-16 text-muted">ACHIEVEMENT</h5>
+                        <h1 class="text-uppercase font-staat font-size-34"><i class="fas fa-award"></i> Certifications</h1>
+                    </div>
+                    <div class="w-100">
 
+                        <ul class="fa-ul mb-0 font-ram font-size-16 text-black-50 pb-3">
+                            <li>
+                                <i class="fa-li fa fa-trophy text-warning"></i>
+                                AWS Certified Solutions Architect (Associate)
+                            </li>
+                            <li>
+                                <i class="fa-li fa fa-trophy text-warning"></i>
+                                Azure Security Engineer Associate (AZ-500) 
+                            </li>
+                            <li>
+                                <i class="fa-li fa fa-trophy text-warning"></i>
+                                Microsoft Cybersecurity Architect (SC-100)
+                            </li>
+                            <li>
+                                <i class="fa-li fa fa-trophy text-warning"></i>
+                                Cisco CCNP Enterprise
+                            </li>
+                            <li>
+                                <i class="fa-li fa fa-trophy text-warning"></i>
+                                Check Point Certified Security Administrator (CCSA) 
+                            </li>
+                            <li>
+                                <i class="fa-li fa fa-trophy text-warning"></i>
+                                Microsoft Security, Compliance, Identity (SC-900)
+                            </li>
+                            <li>
+                                <i class="fa-li fa fa-trophy text-warning"></i>
+                                Cisco CCNA
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- <div class="row">
+                        <div class="col-md-4 col-sm-6 mb-4 text-center">
+                            <div class="panel border p-4">
+                                <span class="icon text-secondary"><i class="fas fa-directions fa-3x"></i></span>
+                                <h4 class="font-ram py-4">Art Direction</h4>
+                                <p class="font-ram font-size-16 text-black-50">
+                                    Fusce suscipit, ante a hendrerit thelery ullamcorper, risus nisl cursus purus the
+                                    viverra ante nulla vel justo.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section> -->
+                <!-- #services -->
+
+                
+
+                <!--footer-->
+                <footer id="footer" class="pt-5 px-3">
+                    <div id="contact_us">
+                        <div class="row bg-light py-5">
+                            <div class="col-sm-6 text-center">
+                                <h6 class="font-ram font-size-16 text-black-50">&copy;2020 Shucayb. All rights reserved</h6>
+                            </div>
+                            <div class="col-sm-6 text-center">
+                                <div class="social-icons">
+                                    <a href="https://www.linkedin.com/in/shucayb-a-49a554205" target="_blank">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                
+                
+
+            </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"
+        integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>
+
+    <script src="./vendor/typed/typed.min.js"></script>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
